@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buttons</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <style>
+
+    .Between
+    {
+      background-color: yellow;
+      color: black;
+      text-decoration: none;
+      border: 2px solid black;
+      font-size: 20px;
+      padding: 10px;
+  border-radius: 10px;
+  width: 150px;
+      box-shadow: 10px 10px 10px grey;
+    }
+
+  .Between:hover
+  {
+    background-color: lightskyblue;
+    color: white;
+    cursor: pointer;
+  box-shadow: 10px 10px 10px red;
+  }
+
+    .Outline_Button
+    {
+      background-color: black;
+      color: yellow;
+      text-decoration: none;
+      border: 2px solid yellow;
+      font-size: 20px;
+      padding: 10px;
+      border-radius: 10px;
+      width: 150px;
+      box-shadow: 10px 10px 10px grey;
+
+    }
+
+    .Bootstrap_Button
+    {
+      text-decoration: none;
+      border: 2px solid black;
+      font-size: 20px;
+      padding: 10px;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 10px 10px 10px grey;
+    }
+
+    .Primary{background-color: blue ;}
+    .Secondary{background-color: grey}
+    .Success{background-color: green}
+    .Warning{background-color: orange}
+    .Danger{background-color: red}
+
+    .Bootstrap_Outline_Button
+    {
+      text-decoration: none;
+      border: 2px solid black;
+      font-size: 20px;
+      padding: 10px;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 10px 10px 10px grey;
+
+    }
+
+    .Primary1{background-color: blue ;color: yellow}
+    .Secondary1{background-color: grey;color: yellow}
+    .Success1{background-color: green;color: yellow}
+    .Warning1{background-color: orange;color: yellow}
+    .Danger1{background-color: red; color: yellow}
+
+    .Bootstrap_Outline_Button:hover
+    {
+      color: yellow;
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+
+<div>
+    <h1>Simple Buttons</h1>
+  <a href="#" class="Between">Link</a>
+  <button class="Between">Button</button>
+  <input  type="button" value="Input" class="Between">
+</div>
+
+
+
+<div>
+  <h1>Simple Outline Buttons</h1>
+  <a href="#" class="Outline_Button">Link</a>
+  <button class="Outline_Button">Button</button>
+  <input  type="Outline_Button" value="Input" class="Outline_Button" title="Input1">
+</div>
+
+
+<div>
+  <h1>Bootstrap Buttons</h1>
+
+  <input  type="button" value="Bootstrap_Button" class="Bootstrap_Button Primary">
+  <input  type="button" value="Bootstrap_Button " class="Bootstrap_Button Secondary">
+  <input  type="button" value="Bootstrap_Button " class="Bootstrap_Button Success">
+  <input  type="button" value="Bootstrap_Button " class="Bootstrap_Button Warning">
+  <input  type="button" value="Bootstrap_Button " class="Bootstrap_Button Danger">
+</div>
+
+
+
+<div>
+  <h1>Bootstrap Outline Buttons</h1>
+
+  <input  type="button" value="Primary" class="Bootstrap_Outline_Button Primary1">
+  <input  type="button" value="Secondary" class="Bootstrap_Outline_Button Secondary1">
+  <input  type="button" value="Success" class="Bootstrap_Outline_Button Success1">
+  <input  type="button" value="Warning" class="Bootstrap_Outline_Button Warning1">
+  <input  type="button" value="Danger" class="Bootstrap_Outline_Button Danger1">
+</div>
+
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Different Input Types</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        div{
+            background-color: aqua;
+            padding: 10px;
+            margin: 5px;
+            width: 600px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<!--
+    Simple Input Types
+    1) Text Box
+    2) Password Box
+    3) Radio Button
+    4) Check Box
+    5) Normal Button
+-->
+<div>
+    <form>
+        <label for="uname">UserName </label>
+        <input type="text" id="uname">
+
+    </form>
+</div>
+
+<div>
+    <form>
+        <label for="pwd">Password </label>
+        <input type="password" id="pwd">
+
+    </form>
+</div>
+
+
+<div>
+    <form>
+        <label for="submitButton">Click to Submit </label>
+        <input type="submit" id="submitButton" value="Submit here">
+
+    </form>
+</div>
+
+
+<div>
+    <form>
+        <label for="resetButton">Click to reset</label>
+        <input type="reset" id="resetButton">
+
+    </form>
+</div>
+
+
+<div>
+    <form>
+        <label>Radio</label>
+        <input type="radio" value="yes" name="radioInput">Yes
+        <input type="radio" value="no" name="radioInput">No
+    </form>
+</div>
+
+
+<div>
+    <form>
+        <label>Regular Habits</label>
+        <input type="checkbox" value="PC games" name="checkboxInput">
+        <input type="checkbox" value="Shopping"name="checkboxInput">OnlineShopping
+        <input type="checkbox" value="Listening music" name="checkboxInput">
+        <input type="checkbox" value="Consuming" name="checkboxInput">
+        <input type="checkbox" value="Hair styling" name="checkboxInput">
+        <input type="checkbox" value="Drawing" name="checkboxInput">
+    </form>
+
+</div>
+<!-- HTML5 Input Types
+    color,
+    date,
+    datetime-local,
+    email,
+    month,
+    number,
+    range,
+    search,
+    time,
+    url,
+    Week
+-->
+
+<div>
+    <form>
+        <label>Selecting colour</label>
+        <input type="color">
+
+        <br><br>
+        <label>select a date</label>
+        <input type="date">
+
+        <br><br>
+        <input type="datetime-local">
+    </form>
+</div>
+
+<div>
+    <form>
+        <label>Enter email address</label>
+        <input type="email">
+        <br>
+        <input type="submit" value="ClickSubmit Button">
+    </form>
+
+</div>
+
+<div>
+    <form>
+        <label>Enter age</label>
+        <input type="number" min="4"max="8">
+        <br>
+        <input type="submit" value="ClickSubmit Button">
+    </form>
+
+</div>
+
+
+<div>
+    <form>
+        <label>Enter a range</label>
+        0<input type="range">10
+        <br>
+        <input type="submit" value="ClickSubmit Button">
+
+        <input type="search">
+    </form>
+
+</div>
+
+<div>
+    <form>
+        <label>Enter URL here</label>
+        <input type="url">
+        <input type="submit" value="ClickSubmit">
+    </form>
+
+
+
+</div>
+
+<div>
+    <form>
+        <label>Select a week</label>
+        <input type="week">
+    </form>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Input Attributes</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        div{
+            background-color: aqua;
+            padding: 10px;
+            margin: 5px;
+            width: 400px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        Simple Input Field Attributes
+        value,
+        readonly,
+        disabled,
+        size,
+        rows , cols
+    -->
+    <div>
+        <form>
+            <label>UserName</label>
+            <input type="text" value="username" readonly>
+        </form>
+    </div>
+
+
+    <div>
+        <form>
+            <label>UserName</label>
+            <input type="text" value="username" disabled>
+        </form>
+    </div>
+
+
+    <div>
+        <form>
+            <label>UserName</label>
+            <input type="text" size="5">
+        </form>
+    </div>
+
+
+    <div>
+        <form>
+            <label>UserName</label>
+            <textarea rows="15" cols="40"></textarea>
+           </form>
+    </div>
+
+    <!--
+        HTML5 Input Field Attributes
+        required,
+        novalidate,
+        autofocus,
+        placeholder,
+        pattern
+    -->
+    <h2>HTML5 form attributes</h2>
+
+    <!-- required -->
+    <br><br><br>
+    <div>
+        <form>
+            <label>*User Name</label>
+            <input type="text" required>
+            <input type="submit" value="SubmitButton">
+
+        </form>
+    </div>
+
+    <div>
+        <form novalidate>
+            <label>Email Address</label>
+            <input type="email" autofocus>
+            <input type="submit" value="ClickSubmit">
+        </form>
+
+
+    </div>
+
+    <div>
+        <form>
+            <label>Enter UserName</label>
+            <input type="text" pattern="^[A-Za-z0-9_]{1,15}$">
+
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <input type="text" placeholder="Enter user name here">
+            <input type="submit" value="Click on Submit">
+            <input type="submit" value="Click on Submit ">
+        </form>
+
+    </div>
+
+</body>
+</html>

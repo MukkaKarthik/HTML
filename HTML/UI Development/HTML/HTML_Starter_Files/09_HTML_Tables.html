@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table TAG</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+        }
+        table, th, td
+        {
+            border: 2px solid black ;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 15px;
+        }
+        #custom-table thead
+        {
+            background-color: mediumspringgreen;
+            color: red;
+        }
+        #custom-table tbody
+        {
+            background-color: yellow;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+        <h1>Simple Table</h1>
+    <!--
+        simple table
+        table row span
+        table col span
+        custom table with css
+    -->
+
+        </br>
+    <table width="100%"  >
+        <thead>
+        <tr>
+            <th>SL.No</th>
+            <th>Name</th>
+            <th>Address</th>
+        </tr>
+        </thead>
+
+
+        <tbody>
+
+        <tr>
+            <td>1)</td>
+            <td>Mukka Karthik</td>
+            <td>Hyderabad</td>
+        </tr>
+
+        <tr>
+            <td>2)</td>
+            <td>Vinodh</td>
+            <td>Chennai</td>
+        </tr>
+
+        <tr>
+            <td>3)</td>
+            <td>Mohinder</td>
+            <td>Bangalore</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+        </br>
+        <h1>Table with col span to combine columns </h1>
+        <table width="100%"  >
+            <thead>
+            <tr>
+                <th>SL.No</th>
+                <th colspan="2">Name and Address</th>
+
+            </tr>
+            </thead>
+
+
+            <tbody>
+
+            <tr>
+                <td>1)</td>
+                <td>Mukka Karthik</td>
+                <td>Hyderabad</td>
+            </tr>
+
+            <tr>
+                <td>2)</td>
+                <td>Vinodh</td>
+                <td>Chennai</td>
+            </tr>
+
+            <tr>
+                <td>3)</td>
+                <td>Mohinder</td>
+                <td>Bangalore</td>
+            </tr>
+
+            </tbody>
+        </table>
+
+        </br>
+        <h1>Table with row span to combine rows </h1>
+        <table width="100%"  >
+            <thead>
+            <tr>
+                <th>SL.No</th>
+                <th colspan="2">Name and Address</th>
+
+            </tr>
+            </thead>
+
+
+            <tbody>
+
+            <tr>
+                <td rowspan="2" >1)</td>
+                <td>Mukka Karthik</td>
+                <td>Hyderabad</td>
+            </tr>
+
+            <tr>
+
+                <td>Vinodh</td>
+                <td>Chennai</td>
+            </tr>
+
+            <tr>
+                <td>3)</td>
+                <td>Mohinder</td>
+                <td>Bangalore</td>
+            </tr>
+
+            </tbody>
+        </table>
+
+    </br>
+        <h1>Custom Table </h1>
+        <!--
+            simple table
+            table row span
+            table col span
+            custom table with css
+        -->
+
+        </br>
+        <table width="100%" id="custom-table"  >
+            <thead>
+            <tr>
+                <th>SL.No</th>
+                <th>Name</th>
+                <th>Address</th>
+            </tr>
+            </thead>
+
+
+            <tbody>
+
+            <tr>
+                <td>1)</td>
+                <td>Mukka Karthik</td>
+                <td>Hyderabad</td>
+            </tr>
+
+            <tr>
+                <td>2)</td>
+                <td>Vinodh</td>
+                <td>Chennai</td>
+            </tr>
+
+            <tr>
+                <td>3)</td>
+                <td>Mohinder</td>
+                <td>Bangalore</td>
+            </tr>
+
+            </tbody>
+        </table>
+
+</body>
+</html>

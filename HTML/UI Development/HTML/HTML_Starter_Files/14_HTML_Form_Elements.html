@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        div {
+            background-color: aqua;
+            padding: 15px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!--
+    simple Login Form
+    Login Form with Table
+    Select Box
+    Text Area
+    DataList
+-->
+<div>
+    <form>
+        <label for="username">UserName</label>
+        <input type="text" id="username">
+        </br>
+        <label for="pwd">Password</label>
+        <input type="password" id="pwd">
+        </br>
+        <input type="submit" value="Click to Submit">
+    </form>
+</div>
+
+<div>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="tableusername">UserName</label>
+                </td>
+                <td>
+                    <input type="text" id="tableusername">
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="tablepassword">Password</label>
+                </td>
+                <td>
+                    <input type="password" id="tablepassword">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="submit" value="Click to Submit">
+                </td>
+
+            </tr>
+        </table>
+    </form>
+</div>
+
+<div>
+    <label>Select a coding language</label>
+    <form>
+        <select>
+            <option>Coding Language</option>
+            <option>Scripting Language</option>
+            <option>Programming Language</option>
+            <option>Designing Language</option>
+            <option>Computational language</option>
+
+        </select>
+
+    </form>
+
+</div>
+
+<div>
+    <form>
+        <label>Add necessary comments if required</label>
+        <textarea rows="5" cols="50"></textarea>
+    </form>
+
+</div>
+
+<div>
+    <form>
+        <label>Select a language</label>
+        <input list="technologies" name="tech">
+        <datalist id="technologies">
+            <option value="Coding Language">
+            <option value="Scripting Language">
+            <option value="Designing Language">
+            <option value="Programming Language">
+            <option value="Computational Language">
+
+        </datalist>
+        <input type="submit" value="Click on Submit">
+    </form>
+</div>
+
+</body>
+</html>

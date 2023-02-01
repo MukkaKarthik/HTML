@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navigation</title>
+
+<style>
+
+  body
+  {
+    margin: 0;
+  }
+  nav
+  {
+     background-color: orange;
+    overflow: hidden;
+  }
+
+  nav ul
+  {
+    list-style-type: none;
+    padding: 0;
+  margin: 0;
+    }
+
+  nav ul li
+  {
+    float: left; /* overflown background colour */
+  }
+
+nav ul li a
+{
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  display: inline-block;
+}
+
+nav ul li a:hover
+{
+  background-color: black;
+  color: white;
+}
+
+.dropdown-list
+{
+  background-color: yellow;
+position: absolute;
+  display: none; /* to hide content we use this tag */
+}
+
+.dropdown-list a
+{
+  display: block;
+}
+
+.dropdown:hover .dropdown-list
+{
+  display: block;
+}
+</style>
+
+
+
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li>
+      <a href='#'  <i class</i>  >Home</a>
+    </li>
+
+    <li class="dropdown">
+      <a href="#">News</a>
+      <div class="dropdown-list">
+        <a href="#">Business</a>
+        <a href="#">Technology</a>
+        <a href="#">Sports</a>
+        <a href="#">Others</a>
+      </div>
+    </li>
+
+    <li>
+      <a href="#">About Us</a>
+    </li>
+
+    <li>
+      <a href="#">Contact Us</a>
+    </li>
+
+    <li>
+      <a href="#">Careers</a>
+    </li>
+
+  </ul>
+
+</nav>
+
+
+
+</body>
+</html>
